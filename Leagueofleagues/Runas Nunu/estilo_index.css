@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#cabecalho
+{
+	background-color: yellow;
+	height: 10%;
+	width: 100%;
+}
+
+#esq { 
+	background-color: black;
+	height: 200%;
+	width: 23%;
+	color: #006622;	
+	float: left;
+}
+
+#cont{ 
+	background-color: white;
+	height: 100%;
+	width: 70%;
+	float: right;
+	}
+
+#esq a {
+	color:inherit;
+	text-decoration: none;
+	}
+
+.menu
+{
+	position:absolute;
+	font-size: 30 px;
+}
+.menu ul {
+
+	list-style:none;
+	padding:0;
+	}
+.menu > ul > li > ul {
+
+	margin-left: 100px;
+	margin-top: -20px;
+	display: none;
+	color: #00e64d;
+	}
+.menu > ul > li > ul > li > ul{
+	position:absolute;
+	margin-left: 60px;
+	margin-top: -20px;
+	display: none;
+	color: #00e64d;
+	padding-left: 20px; 
+	}
+.menu > ul > li:hover > ul{
+	display: block;
+}
+.menu > ul > li > ul > li:hover > ul{
+	display: block;
+}
+.menu > ul > li > ul > li:hover > ul >li > ul > li:hover > ul{
+	display: block;
+}
+
+
+li
+{
+	padding: 1px 40px 1px 0px;
+	white-space: nowrap;
+}
